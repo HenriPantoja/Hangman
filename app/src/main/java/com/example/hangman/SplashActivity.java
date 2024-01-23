@@ -14,7 +14,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // test Inicia el menú después de 3 segundos. No olvidar!!!!!!!!!!
+                // test rama Inicia el menú después de 3 segundos. No olvidar!!!!!!!!!!
                 Intent intent = new Intent(SplashActivity.this, MainMenuActivity.class);
                 startActivity(intent);
                 finish();
